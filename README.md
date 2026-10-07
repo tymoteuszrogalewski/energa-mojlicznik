@@ -4,6 +4,12 @@
 
 Pobiera **godzinowe zużycie energii** z portalu Energa Operator **Mój Licznik** i zapisuje je do MySQL / MariaDB (albo wypisuje jako CSV). Bez przeglądarki, bez Pythona, bez bibliotek — jeden plik PHP + dwa skrypty.
 
+Energa Operator udostępnia zużycie **co do godziny**. Mając te dane u siebie, możesz np.:
+
+- zrobić offline **symulację rachunków** w różnych wariantach — taryfy G11 / G12 / G12w, różni sprzedawcy, **ceny dynamiczne** (TGE, Pstryk itp.),
+- **porównać pomiary** licznika Energa z własnym miernikiem (Pstryk, Shelly, licznik na DIN itp.),
+- policzyć, ile energii zużywasz w poszczególnych godzinach, dniach i miesiącach.
+
 *English: hourly electricity consumption import from the Polish DSO portal Energa Operator "Mój Licznik" into MySQL/MariaDB or CSV.*
 
 <h3>Co potrafi:<br>dane godzinowe · pobór A+ · oddanie do sieci A- (PV) · taryfy G11 / G12 / wielostrefowe · cała historia · CSV albo baza</h3>
