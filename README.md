@@ -83,7 +83,7 @@ FROM energa_hourly GROUP BY dzien ORDER BY dzien DESC;
 ## Uwagi
 
 - Mój Licznik nie ma oficjalnego API — skrypt loguje się jak przeglądarka. Jeśli Energa zmieni portal, skrypt może przestać działać.
-- Gdy portal zażąda CAPTCHA, zaloguj się raz ręcznie w przeglądarce i uruchom skrypt ponownie.
+- **Blokada / CAPTCHA** — portal może czasem zablokować logowanie skryptu i zażądać CAPTCHA. Dzieje się tak np. po kilku próbach z błędnym loginem lub hasłem albo po przekroczeniu limitu zapytań. Wtedy zaloguj się na konto przez przeglądarkę **z tego samego adresu IP**, z którego działa skrypt, i przepisz CAPTCHA. Potem uruchom skrypt ponownie — przy pobieraniu historii podaj datę dnia, na którym się zatrzymał, i pobieranie potoczy się dalej.
 - Na koncie z kilkoma licznikami automatycznie wybierany jest pierwszy — inny wpisz w `ENERGA_METER`.
 
 ## Pochodzenie
