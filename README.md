@@ -57,7 +57,7 @@ Energa udostępnia dane mniej więcej od montażu licznika zdalnego odczytu — 
 5 * * * *  /sciezka/energa-mojlicznik/go.sh >/dev/null
 ```
 
-**Tryb CSV** — ustaw `DB_NAME` na `''`:
+**Tryb CSV** — ustaw `DB_NAME` na `''` (kolumny: ts_utc; ts_local; kwh_import; kwh_export):
 
 ```
 2026-10-04 22:00:00;2026-10-05 00:00:00;0.765;
