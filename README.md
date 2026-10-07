@@ -14,12 +14,10 @@ Energa Operator udostępnia zużycie **co do godziny**. Mając te dane u siebie,
 
 Tak wykorzystuję te dane w [TymOS](https://github.com/tymoteuszrogalewski/tymos), moim systemie automatyki domowej:
 
-![Koszt energii w roku: Pstryk vs Energa G11 vs G12r](docs/koszt-taryfy.png)
-
+![Koszt energii w roku: Pstryk vs Energa G11 vs G12r](docs/koszt-taryfy.png)<br>
 *Rzeczywiste godzinowe zużycie z Mój Licznik przeliczone przez trzy warianty: ceny dynamiczne Pstryk, taryfa Energa G11 i G12r — miesiąc po miesiącu.*
 
-![Odczyty Pstryk vs Energa-Operator](docs/pstryk-vs-energa.png)
-
+![Odczyty Pstryk vs Energa-Operator](docs/pstryk-vs-energa.png)<br>
 *Porównanie pomiarów: licznik operatora (Energa) i pomiar Pstryka.*
 
 *English: hourly electricity consumption import from the Polish DSO portal Energa Operator "Mój Licznik" into MySQL/MariaDB or CSV.*
